@@ -1,0 +1,150 @@
+*{
+    margin-bottom: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font: weight bold;
+  }
+  body{
+    font-family: montserrat;
+    
+  }
+  
+  .wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+.home{
+  color:white;
+  text-align:center;
+  margin-top:10%;
+  font-size: 50px;
+  font-weight:bold;
+  
+}
+p{
+  color:white;
+}
+span:hover{
+  color:rgb(69, 69, 240);
+  font-size:50px;
+  cursor:grab;
+  font-weight: bold;
+  -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color:white;
+  text-shadow: 3px 0px white;
+  transition:1s;  
+  
+}
+.about{
+  color:white;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+hr{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+}
+.det{
+  margin-left:20%;
+  margin-right:20%;
+  
+}
+.edu{
+  color:white;
+  text-align:center;
+  margin-top:30%;
+  font-size: 50px;
+  font-weight:bold;
+}
+.hr{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+} 
+.qual{
+ background-color: black;
+  height: 650px;
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  margin-left:0px;
+}
+.homebg{
+  background-color:black;
+  height: 550px;
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  margin-left:0px;
+}
+#center{
+  width: 40%;
+  position: absolute;
+  top:200%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding:10px;
+  background-color: black;
+  box-sizing: border-box;
+  
+  
+}
+h1{
+  color:white;
+  text-transform: uppercase;
+  letter-spacing:5px;
+  text-align: center;
+}
+.skillbox{
+  box-sizing:border-box;
+  width:100%;
+  margin:10px 0;
+}
+.skillbox p{
+  color:#fff;
+  text-transform: uppercase;
+  margin:0 ;
+  padding:0;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.skillbox p:nth-child(2){
+  float: right;
+  position: relative;
+  top:-19px;
+
+}
+.skill{
+  background:#352d2d;
+  padding:.5px;
+  box-sizing: border-box;
+  border:1px solid #221e1e;;
+  border-radius: .1px;
+}
+.skill_level{
+  background:rgb(27, 138, 228);
+  width:100%;
+  height:10px;
+}
